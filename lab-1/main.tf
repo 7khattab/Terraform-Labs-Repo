@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Configure the AWS Provider
 
 provider "aws" {
@@ -129,5 +129,4 @@ resource "aws_instance" "terraform" {
   tags = {
     Name = "HelloWorld"
   }
->>>>>>> 170fd75 (make a lab-1 in terraform)
 }
