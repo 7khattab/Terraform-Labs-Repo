@@ -1,0 +1,18 @@
+# Lab Title: EC2 Instance Type per Workspace using Terraform Workspaces
+
+## Objective:
+Dynamically create an EC2 instance with a different instance type depending on the active workspace (dev, staging, prod).
+
+## Steps:
+
+1. Create three Terraform workspaces:
+   - dev
+   - staging
+   - prod
+
+2. Define an EC2 instance resource in `main.tf` with instance_type decided based on the active workspace:
+   - dev     -> t2.micro
+   - staging -> t2.medium
+   - prod    -> t2.large
+
+

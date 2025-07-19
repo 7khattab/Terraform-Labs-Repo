@@ -1,0 +1,13 @@
+# Ignore AWS credentials file
+.aws/
+
+
+# Ignore Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Ignore any large Terraform provider files (like `.exe` or similar)
+Terraform/lab-1/.terraform/providers/registry.terraform.io/hashicorp/aws/*
+

@@ -1,0 +1,12 @@
+🎯 Task Objective:
+ Create multiple EC2 instances using Terraform, utilizing:
+
+1. Variables for dynamic configuration
+
+2. Variable data types
+
+3. Count parameter to provision multiple resources
+
+4. count.Index to assign unique names
+
+5. String interpolation for dynamic naming

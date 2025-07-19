@@ -1,0 +1,14 @@
+1. Create an AWS user account with administrative access privileges and use this user account to create resources.
+
+2. Using Terraform, create two EC2 instances, one in the us-east-1 region and the other in the us-west-1 region.
+
+3. Using the AWS Console, create a new EC2 instance, tag it with the tag "manually_created",
+
+4. You are required to control all your resources through Terraform on your local machine. Please perform the configuration actions necessary to achieve this.
+
+5. At the end, your state file should include all the created EC2 instances. please use your terminal to list all your resources without accessing your state file.
+
+6. Your colleague installed unwanted applications on one of your EC2 instances manually using the
+AWS Console and you want to revert the instance to its earlier state, what could you do to maintain the desired state of that instance? Please do the required action(s).
+
+7. Finally, destroy the deployed infrastructure using Terraform.
